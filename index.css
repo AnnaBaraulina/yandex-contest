@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #E0E0E0;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 37px;
+    color: #72525c;
+    margin: auto;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+  
+    }
+  }
+  
+
+.paragraph {
+    color: #72525c;
+    margin: auto;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    animation: rotation 5s linear infinite;
+}
